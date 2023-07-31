@@ -1,0 +1,15 @@
+.App {
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 1280px;
+  padding: 1rem;
+}
+
+.App-header {
+  padding: 10px;
+  background-color: var(--secondary);
+  display: flex;
+  gap: 1rem;
+}

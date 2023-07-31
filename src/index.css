@@ -1,0 +1,44 @@
+  @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Jost:ital,wght@0,400;0,700;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --title:  'Hammersmith One', sans-serif;
+  --text: 'Jost', sans-serif;
+  --primary:  #E1F2D5;
+  --accent: #23D100;
+  --secondary: #00362C;
+}
+/* #034422 */
+/* #00362C */
+/* #1DB702 */
+/* #23D100 */
+/* #A0F046 */
+
+body {
+  color: var(--secondary);
+}
+
+h1 {
+  color: #00362C;
+  font-family: var(--title);
+}
+
+h2 {
+  font-family: var(--title);
+}
+
+a{ 
+  text-decoration: none;
+  color: var(--primary);
+}
+
+#root {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
